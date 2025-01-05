@@ -13,6 +13,11 @@
       {
         "src": "/(.*)",
         "dest": "alphabloczs/wsgi.py"
+      },
+      {
+        "src": "/static/(.*)",
+        "dest": "/static/$1"
       }
     ]
   }
+  
